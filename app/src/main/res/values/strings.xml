@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">ForTheArts</string>
+
+    //card view for main activity
+    <string name="create_user">Aspired Performer</string>
+    <string name="create_studio">Create Studio</string>
+
 </resources>

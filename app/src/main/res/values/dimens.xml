@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //main activity
+    <dimen name="main_activity_cv_width">200dp</dimen>
+    <dimen name="main_activity_cv_height">100dp</dimen>
+    <dimen name="cv_margin_left">100dp</dimen>
+    <dimen name="cv_margin_top">125dp</dimen>
+    <dimen name="string_sz">18sp</dimen>
+</resources>
