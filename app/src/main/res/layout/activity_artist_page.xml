@@ -1,6 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.studios.truhbel.forthearts.Artist.ArtistLandingPageActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <ImageView
+        android:id="@+id/artist_iv"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/profileicon" />
+
+    <TextView
+        android:id="@+id/studio_tv"
+        android:layout_toRightOf="@id/artist_iv"
+        android:text="TEST"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        />
+
+    <TextView
+        android:id="@+id/city_state_tv"
+        android:layout_toRightOf="@id/artist_iv"
+        android:layout_below="@id/studio_tv"
+        android:text="TEST2"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/second_layout_height"
+        android:layout_marginTop="@dimen/margin_top_landing_page"
+        android:background="#75f8ff">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/current_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/cv_margin_classes"
+            android:text="@string/current_classes" />
+
+        <LinearLayout
+            android:id="@+id/ll_top"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/current_tv"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="@dimen/cv_hw_for_class"
+                android:layout_height="@dimen/cv_hw_for_class"
+                android:layout_margin="@dimen/cv_margin_classes">
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/recent_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_top"
+            android:layout_marginBottom="@dimen/cv_margin_classes"
+            android:layout_marginTop="@dimen/cv_margin_classes"
+            android:text="@string/recent_class" />
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recent_tv"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="@dimen/cv_hw_for_class"
+                android:layout_height="@dimen/cv_hw_for_class"
+                android:layout_margin="@dimen/cv_margin_classes">
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+

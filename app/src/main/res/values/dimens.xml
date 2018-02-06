@@ -7,4 +7,10 @@
     <dimen name="cv_margin_left">100dp</dimen>
     <dimen name="cv_margin_top">125dp</dimen>
     <dimen name="string_sz">18sp</dimen>
+    <dimen name="margin_inputs">20dp</dimen>
+    <dimen name="spinner_margin">50dp</dimen>
+    <dimen name="cv_hw_for_class">125dp</dimen>
+    <dimen name="cv_margin_classes">5dp</dimen>
+    <dimen name="second_layout_height">445dp</dimen>
+    <dimen name="margin_top_landing_page">160dp</dimen>
 </resources>

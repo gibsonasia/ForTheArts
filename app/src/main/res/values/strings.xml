@@ -5,4 +5,25 @@
     <string name="create_user">Aspired Performer</string>
     <string name="create_studio">Create Studio</string>
 
+    //Create studio Activity
+    <string name="name">Name</string>
+    <string name="studio_name">Studio Name</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="confirm">Confirm</string>
+    <string name="lable_spinner">Whats your Art Studio</string>
+
+    <string-array name="subject_array">
+        <item>Music</item>
+        <item>Dance</item>
+        <item>Painting</item>
+        <item>Drawing</item>
+        <item>Writing</item>
+        <item>Pottery</item>
+    </string-array>
+
+    //Artist Landing page
+    <string name="current_classes">Current Classes</string>
+    <string name="recent_class">Recent Classes</string>
+
 </resources>
